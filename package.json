@@ -1,0 +1,19 @@
+{
+  "name": "controlgamapage",
+  "version": "1.0.0",
+  "description": "Personal Web",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ControlGama/ControlGamaPage.git"
+  },
+  "author": "ControlGama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ControlGama/ControlGamaPage/issues"
+  },
+  "homepage": "https://github.com/ControlGama/ControlGamaPage#readme"
+}
