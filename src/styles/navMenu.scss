@@ -1,0 +1,10 @@
+.nav-menu-container {
+    justify-self: flex-start;
+    margin-left : 50px;
+}
+
+.nav-menu {
+    display   : flex;
+    list-style: none;
+    gap       : 15px;
+}
