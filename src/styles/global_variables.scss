@@ -1,6 +1,8 @@
-:root {
-    --main-black: #0C151D;
-    --orange    : #F9A03F;
-    --green     : #119822;
-    --withe     : #FFFFFF;    
-}
+// Colosr
+$color-main-black: #0C151D;
+$color-orange    : #F9A03F;
+$color-green    : #119822;
+$color-withe     : #FFFFFF;
+
+// breakpoints
+$breakpoint-tablet: 768px;

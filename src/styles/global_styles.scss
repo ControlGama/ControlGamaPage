@@ -1,3 +1,5 @@
+@use '@styles/global_variables' as var; 
+
 * {
     margin : 0;
     padding: 0;
@@ -5,37 +7,9 @@
 }
 
 html {
-    background    : var(--main-black);
+    background    : var.$color-main-black;
     font-size     : 62.5%;
     font-family   : 'Inconsolata', monospace;
-    color         : var(--withe);
+    color         : var.$color-withe;
     letter-spacing: 0.2rem;
-}
-
-a:link,
-a:visited,
-a:active,
-a:hover {
-    text-decoration: none;
-    cursor         : pointer;
-    color          : var(--main-black);
-}
-
-h1 {
-    font-size     : 3.2rem;
-    color         : var(--withe);
-    text-align    : center;
-    letter-spacing: 1rem;
-    font-weight   : 800;
-    margin-bottom : 20px;
-}
-
-h2 {
-    font-size : 1.8rem;
-    color     : var(--withe);
-    text-align: center;
-}
-
-.green_frame {
-    border: 1px solid var(--green);
 }

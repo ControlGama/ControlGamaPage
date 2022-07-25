@@ -1,15 +1,14 @@
 import React from "react";
 import NavItem from "@components/NavItem";
-import '@styles/NavMenu.scss'
+import "@styles/NavMenu.scss";
 
-const NavMenu = () => {
+const NavMenu = ({ itemsMenu }) => {
   return (
     <div className="nav-menu-container">
       <ul className="nav-menu">
-      <NavItem></NavItem>
-      <NavItem></NavItem>
-      <NavItem></NavItem>
-
+        {itemsMenu.map((item) => (
+          <NavItem itemMenu={item} key={item.id} />
+        ))}
       </ul>
     </div>
   );

@@ -1,10 +1,10 @@
 import React from 'react'
 import '@styles/NavItem.scss'
 
-const NavItem = () => {
+const NavItem = ({itemMenu}) => {
   return (
     <li>
-      <a href="./index.html">Inicio</a>
+      <a href={itemMenu.link}>{itemMenu.name}</a>
     </li>
   )
 }

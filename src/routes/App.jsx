@@ -4,7 +4,6 @@ import Layout from "@containers/Layout";
 import Home from "@pages/Home";
 import MyCV from "@pages/MyCV";
 import '@styles/global_styles.scss'
-import '@styles/global_variables.scss'
 
 const App = () => {
   return (

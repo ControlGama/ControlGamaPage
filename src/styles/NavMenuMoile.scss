@@ -1,0 +1,38 @@
+@use '@styles/global_variables'as var;
+
+.nav-menu-mobile-container {
+    display: none;
+    padding: 15px 10px 15px 10px;
+}
+
+.nav-menu-Mobile {
+    display       : flex;
+    list-style    : none;
+    gap           : 15px;
+    flex-direction: column;
+}
+
+.menu {
+    width : 45px;
+    cursor: pointer;
+}
+
+.no-display {
+    display: none;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+    text-decoration: none;
+    cursor         : pointer;
+    color          : var.$color-main-black;
+}
+
+
+@media (max-width: 700px) {
+    .nav-menu-mobile-container {
+        display: block;
+    }
+}

@@ -1,10 +1,10 @@
 /* Global styles */
 
 
-main {
+/* main {
     margin   : 30px 70px 10px 70px;
     font-size: 1.6rem;
-}
+} */
 
 /* Main styles */
 
@@ -31,7 +31,7 @@ nav .nav-menu-mobileContainer {
     margin-left : 50px;
 } */
 
-.nav-config-container {
+/* .nav-config-container {
     justify-self: flex-end;
     margin-right: 50px;
 }
@@ -41,7 +41,7 @@ nav .nav-config {
     display   : flex;
     list-style: none;
     gap       : 15px;
-}
+} */
 
 /* nav .nav-menu li,
 nav .nav-config li {
@@ -49,25 +49,20 @@ nav .nav-config li {
     padding: 0 10px;
 } */
 
-
-
 .onPage {
     color           : var(--withe);
     background-color: var(--main-black);
     font-weight     : 500;
 }
 
-.home-container {
+/* .home-container {
     display              : grid;
     grid-template-columns: 1fr 2fr;
     height               : 80vh;
-}
+} */
 
-.no-display {
-    display: none;
-}
 
-.main-photo-container {
+/* .main-photo-container {
     width              : 250px;
     height             : 250px;
     border-radius      : 100%;
@@ -75,9 +70,9 @@ nav .nav-config li {
     background-size    : cover;
     background-repeat  : no-repeat;
     background-position: center;
-}
+} */
 
-.main-content-L {
+/* .main-content-L {
     display       : flex;
     margin        : 10px;
     flex-direction: column;
@@ -91,9 +86,9 @@ nav .nav-config li {
     margin        : 15px 15px 15px 60px;
     flex-direction: column;
     align-items   : center;
-}
+} */
 
-.main-content-L section,
+/* .main-content-L section,
 .main-content-R section {
     margin-top: 50px;
     padding   : 15px;
@@ -105,44 +100,11 @@ nav .nav-config li {
 .main-content-R section p {
     margin-top: 15px;
 }
+ */
 
-.social-media-container {
-    display        : flex;
-    flex-wrap      : wrap;
-    width          : 100%;
-    margin         : 30px 0 15px 0;
-    gap            : 20px;
-    justify-content: center;
-}
 
-.social-media {
-    width              : 100px;
-    height             : 100px;
-    border-radius      : 20px;
-    background-repeat  : no-repeat;
-    background-size    : 90%;
-    background-position: center;
-}
 
-.socialmedia-gmail {
-    background-image: url(../assets/gmail.png);
-}
 
-.socialmedia-twitter {
-    background-image: url(../assets/twitter.png);
-}
-
-.socialmedia-instagram {
-    background-image: url(../assets/instagram.png);
-}
-
-.socialmedia-linkedin {
-    background-image: url(../assets/linkedin.png);
-}
-
-.socialmedia-github {
-    background-image: url(../assets/github.png);
-}
 
 
 /* Mi CV Styles */
