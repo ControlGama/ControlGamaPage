@@ -105,3 +105,6 @@ dist
 
 
 .vscode
+
+# Ignorar mis archivos locales
+deploy.sh
