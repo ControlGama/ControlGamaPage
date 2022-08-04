@@ -7,11 +7,18 @@ const HomeContainer = () => {
   const infoData = [
     {
       title: "Sobre Mi",
-      body: "Me llamo Gamaliel Rios, pero me pueden encontrar en la red como ControlGama. Tengo 26 años y me he dedicado a la programación desde hace ya 10 años, más específicamente como desarrollador SAP-ABAP. Vivo en México y estoy estudiando la carrera de ingeniería en Software.",
+      body: `
+      Hola, mi nombre es Gamaliel Rios, pero me puedes encontrar en la red como ControlGama. 
+      Soy programador desde hace poco más de 8 años, me especializo en el lenguaje ABAP de SAP, pero en estos últimos años he estado aprendiendo sobre tecnologías WEB.
+      Soy una persona a la que le gustan los retos. Busco constantemente crecer personal y profesionalmente.
+      `,
     },
     {
-      title: "Hola y bienvenid@ a mi web!",
-      body: "Este sitio lo hice principalmente para poner en práctica los conocimientos que voy adquiriendo como técnico programador, para mostrar los proyectos en los que he trabajado y en los que quiero trabajar. Pero mi idea a mediano plazo es poder convertir este pequeño espacio en un lugar para poder expresar ideas, crear herramientas, etc. En general me gustaría convertirlo en una especie de navaja suiza.",
+      title: "Bienvenid@ a mi web!",
+      body: `
+      Este sitio lo hice para poner en práctica todo lo que voy aprendiendo sobre tecnología, para publicar mis proyectos y compartir mi trayectoria laboral.  
+      Pero mi idea a corto-mediano plazo es convertir este espacio en un lugar donde pueda subir todo lo que se me ocurra, desde blogs hasta las herramientas que vaya creando. 
+      `,
     },
   ];
 
