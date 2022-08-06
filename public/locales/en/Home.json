@@ -1,0 +1,13 @@
+{
+    "aboutMeTitle": "About me",
+    "aboutMeBody": [
+        "Hi, my name is Gamaliel Rios, but you can find me online as ControlGama.",
+        "I've been a programmer for just over 8 years, I specialize in SAP's ABAP language, but in recent years I've been learning about WEB technologies.",
+        "I am a person who likes challenges. I am constantly looking to grow personally and professionally."
+    ],
+    "aboutSiteTitle": "Welcome to my website!",
+    "aboutSiteBody":  [
+        "I made this site to put into practice everything I'm learning about technology, to publish my projects and share my work history.",
+        "But my idea in the short-medium term is to turn this space into a place where I can upload everything I can think of, from blogs to the tools that I create."
+    ]
+}
