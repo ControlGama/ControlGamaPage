@@ -3,8 +3,9 @@ import '@styles/NavItem.scss'
 
 const NavItem = ({itemMenu}) => {
   return (
-    <li>
-      <a href={itemMenu.link}>{itemMenu.name}</a>
+    <li className='navItem'>
+      <itemMenu.icon className='navItemIcon' />
+      {itemMenu.name}
     </li>
   )
 }

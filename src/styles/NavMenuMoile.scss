@@ -21,10 +21,10 @@
     display: none;
 }
 
-a:link,
-a:visited,
-a:active,
-a:hover {
+.nav-menu-Mobile a:link,
+.nav-menu-Mobile a:visited,
+.nav-menu-Mobile a:active,
+.nav-menu-Mobile a:hover {
     text-decoration: none;
     cursor         : pointer;
     color          : var.$color-main-black;

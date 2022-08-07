@@ -5,4 +5,8 @@ import { initReactI18next } from "react-i18next";
 
 i18n.use(I18NextHttpBackend).use(initReactI18next).use(LanguageDetector).init({
     fallbackLng: "en",
+    react: {
+        wait: true,
+        useSuspense: false,
+     },
 });

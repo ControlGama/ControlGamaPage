@@ -1,6 +1,24 @@
 @use '@styles/global_variables' as var; 
 
-li {
-    border : 1px solid black;
-    padding: 0 10px;
+.navItem{
+    display: flex;
+    border-right: 1px solid black;
+    padding: 5px 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 } 
+
+.navItemIcon{
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 700px) {
+    .navItem{ 
+        margin-top: 5px;
+        border-left: 1px solid black;
+        padding: 0 auto;
+        gap: 15px;
+    }
+}

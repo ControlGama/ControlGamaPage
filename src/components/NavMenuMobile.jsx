@@ -18,8 +18,10 @@ const NavMenuMoile = ({itemsMenu}) => {
       <MenuIcon className={"menu"} onClick={HandleToggle}/>
 
       <ul className={ toggle ? "nav-menu-Mobile" : "nav-menu-Mobile no-display"}>
-        {itemsMenu.map((item) => (
-          <NavItem itemMenu={item} key={item.id} />
+        {itemsMenu.map((item,index) => (
+          <a href={item.link} key={`NavMenuMobilId${index}`}>
+            <NavItem itemMenu={item} />
+          </a>
         ))}
       </ul>
 

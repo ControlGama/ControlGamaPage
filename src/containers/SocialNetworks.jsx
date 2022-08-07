@@ -1,42 +1,44 @@
 import React from "react";
 import SocialNetworkItem from "@components/SocialNetworkItem";
+import {
+  Twitter,
+  Instagram,
+  Github,
+  Linkedin,
+  Gmail,
+} from "@icons-pack/react-simple-icons";
 import "@styles/SocialNetworks.scss";
 
-const SocialNetworks = () => {
+const SocialNetworks = ({ title }) => {
   const socialNetworkData = [
     {
-      id: 0,
       href: "mailto:nahalielgamaliel@gmail.com",
-      class: "social-media socialmedia-gmail",
+      icon: Gmail,
     },
     {
-      id: 1,
       href: "https://www.linkedin.com/in/controlgama/",
-      class: "social-media socialmedia-linkedin",
+      icon: Linkedin,
     },
     {
-      id: 2,
       href: "https://github.com/ControlGama",
-      class: "social-media socialmedia-github",
+      icon: Github,
     },
     {
-      id: 3,
       href: "https://www.instagram.com/controlgama/",
-      class: "social-media socialmedia-instagram",
+      icon: Instagram,
     },
     {
-      id: 4,
       href: "https://twitter.com/ControlGama",
-      class: "social-media socialmedia-twitter",
+      icon: Twitter,
     },
   ];
 
   return (
     <section className="green_frame">
-      <h2>Redes sociales</h2>
+      <h2>{ title }</h2>
       <div className="social-media-container">
-        {socialNetworkData.map((item) => (
-          <SocialNetworkItem item={item} key={`SocialNetworkItem-${item.id}`}/>
+        {socialNetworkData.map((item, index) => (
+          <SocialNetworkItem item={item} key={`SocialNetworkItem-${index}`} />
         ))}
       </div>
     </section>

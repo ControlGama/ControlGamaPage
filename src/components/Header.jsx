@@ -1,20 +1,25 @@
 import React from "react";
 import NavMenu from "@components/NavMenu";
 import NavMenuMobile from "@components/NavMenuMobile";
+import { HomeIcon, TrendingUpIcon, CogIcon } from "@heroicons/react/solid";
+import { useTranslation } from "react-i18next";
 import "@styles/Header.scss";
 
 const Header = () => {
+
+  const { t } = useTranslation("Header");
+
   const itemsMenu = [
-    { id: 0, name: "Home", link: "/" },
-    { id: 1, name: "My CV", link: "/MyCV" },
-    { id: 2, name: "Page Settings", link: "/PageSettings" },
+    { name: t("Home"), link: "/", icon: HomeIcon },
+    { name: t("workHistory"), link: "/MyCV", icon: TrendingUpIcon },
+    { name: t("settings"), link: "/PageSettings", icon: CogIcon },
   ];
 
   return (
     <header>
       <nav>
         <NavMenu itemsMenu={itemsMenu} />
-        <NavMenuMobile  itemsMenu={itemsMenu} />
+        <NavMenuMobile itemsMenu={itemsMenu} />
       </nav>
     </header>
   );

@@ -4,7 +4,9 @@ import "@styles/socialNetworkItem.scss"
 const SocialNetworkItem = ({item}) => {
   return (
     <a href={item.href} target="_blank">
-      <div className={item.class}></div>
+      <div className="social-media">
+        { <item.icon /> }
+      </div>
     </a>
   );
 };
