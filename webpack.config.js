@@ -1,5 +1,7 @@
 const HTMLWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin =  require('mini-css-extract-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path')
 
 module.exports = {
@@ -55,7 +57,15 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({
             filename: '[name].css'
-        })
+        }),
+        new CopyPlugin({
+            patterns: [
+                {
+                    from: path.join(__dirname, './public/locales'), to: path.join(__dirname, './dist/locales') // copy public folder, which contains locales for i18next
+                }
+            ]
+        }),
+        new CleanWebpackPlugin()
     ],
     devServer: {
         allowedHosts: path.join(__dirname, 'dist'),
