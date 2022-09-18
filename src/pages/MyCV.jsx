@@ -1,8 +1,9 @@
 import React from 'react'
+import MyCvContainer from '@containers/MyCvContainer'
 
 const MyCV = () => {
   return (
-    <div>MyCv</div>
+    <MyCvContainer />
   )
 }
 

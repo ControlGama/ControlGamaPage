@@ -1,0 +1,18 @@
+@use '@styles/global_variables'as var;
+
+.toolsBox{
+    margin: 15px;
+    padding: 15px;
+    max-width: 280px;
+    min-width: 250px;
+    border: 1px solid var.$color-green;
+}
+
+.toolsBox .headerToolsBox{
+    text-align: center;
+    font-size: 1.8rem;
+    height: 120px;
+}
+.toolsBox .bodyToolsBox{
+    height: 120px;
+}
