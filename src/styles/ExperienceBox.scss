@@ -3,7 +3,7 @@
 .experienceBox {
     margin               : 15px 15px;
     display              : grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
     min-height: 130px;
 }
 
@@ -15,4 +15,8 @@
 
 .experienceBox .borderExperienceBox div{
     margin: auto;
+}
+
+.experienceBox .leftExperienceBox{
+    text-align: center;
 }

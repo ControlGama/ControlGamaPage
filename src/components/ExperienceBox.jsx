@@ -4,10 +4,18 @@ import "@styles/ExperienceBox.scss";
 const ExperienceBox = ({ data }) => {
   return (
     <div className="experienceBox">
-      <div className="borderExperienceBox logo-unal">
-        <div>{data.title}</div>
+      <div className="borderExperienceBox">
+        <div className="leftExperienceBox">
+          <p>{data.title}</p>
+          <br />
+          <p>{data.duration}</p>
+        </div>
       </div>
-      <div className="borderExperienceBox">{data.body}</div>
+      <div className="borderExperienceBox">
+        <p>{data.subtitle}</p>
+        <br />
+        <p>{data.description}</p>
+      </div>
     </div>
   );
 };
