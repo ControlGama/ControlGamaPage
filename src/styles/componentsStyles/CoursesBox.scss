@@ -1,0 +1,16 @@
+@use '@styles/global_variables'as var;
+
+.CoursesBox {
+    margin    : 15px 15px;
+    min-height: 130px;
+}
+
+.CoursesBox .CoursesTitle {
+    padding: 15px;
+    border : 1px solid var.$color-green;
+}
+
+.CoursesBox .CoursesBody {
+    padding: 15px;
+    border : 1px solid var.$color-green;
+}
