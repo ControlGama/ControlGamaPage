@@ -49,11 +49,11 @@ nav .nav-config li {
     padding: 0 10px;
 } */
 
-.onPage {
+/* .onPage {
     color           : var(--withe);
     background-color: var(--main-black);
     font-weight     : 500;
-}
+} */
 
 /* .home-container {
     display              : grid;
@@ -109,7 +109,7 @@ nav .nav-config li {
 
 /* Mi CV Styles */
 
-.miCv-header {
+/* .miCv-header {
     display              : grid;
     grid-template-columns: 1fr 2fr;
     justify-items        : center;
@@ -161,4 +161,4 @@ nav .nav-config li {
 .body-cv-card{
     height: 200px;
     padding: 15px;
-}
+} */

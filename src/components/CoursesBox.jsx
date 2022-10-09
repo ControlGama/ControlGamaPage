@@ -1,21 +1,15 @@
 import React from "react";
-import "@styles/componentsStyles/CoursesBox.scss";
+import "@styles/componentsStyles/coursesBox.scss";
+import CoursesBoxItem from "@components/CoursesBoxItem.jsx";
 
-const CoursesBox = () => {
+const CoursesBox = ({ data }) => {
   return (
     <div className="CoursesBox">
-      <div className="CoursesTitle">JavaScript</div>
+      <div className="CoursesTitle">{data.title}</div>
       <div className="CoursesBody">
-        <ul>
-          <li>
-            <a href="https://platzi.com/p/ControlGama/curso/2485-backend-nodejs/diploma/detalle/">
-              Curso de Backend con Node.js: API REST con Express.js
-            </a>
-          </li>
-          <li>sac</li>
-          <li>scdc</li>
-          <li>vfgvbdf</li>
-        </ul>
+        {data.coursesItems.map((item, idex) => {
+          return <CoursesBoxItem itemData={item} />;
+        })}
       </div>
     </div>
   );

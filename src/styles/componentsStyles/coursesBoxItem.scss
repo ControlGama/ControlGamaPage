@@ -1,0 +1,21 @@
+@use '@styles/global_variables' as var;
+
+.CoursesBoxItem{
+    margin: 15px;
+} 
+
+.CoursesBoxItem .CoursesItem{
+    padding: 15px;
+    background-color: #11982335;
+    font-size: 1.4rem;
+    border-radius: 20px;
+}
+
+.CoursesBoxItem a:link,
+.CoursesBoxItem a:visited,
+.CoursesBoxItem a:active,
+.CoursesBoxItem a:hover {
+    text-decoration: none;
+    cursor         : pointer;
+    color          : var.$color-withe;
+}

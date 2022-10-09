@@ -1,7 +1,10 @@
 @use '@styles/global_variables'as var;
 
-.myCvContainer{
-    margin: 30px 70px 10px 70px;
+.myCvContainer {
+    margin        : 30px 70px 10px 70px;
+    font-family   : Helvetica, Arial, Verdana, sans-serif;
+    letter-spacing: 0.1rem;
+    line-height   : 1.5;
 }
 
 .myCvContainer .main-photo-container {
@@ -12,17 +15,18 @@
     background-size    : cover;
     background-repeat  : no-repeat;
     background-position: center;
+    justify-self       : center;
 }
 
-.myCvContainer .headerContainer{
-    display      : grid;
+.myCvContainer .headerContainer {
+    display              : grid;
     grid-template-columns: 1fr 3fr;
-} 
+}
 
-.myCvContainer .headerContainer .headerData{
-    margin: 15px;
+.myCvContainer .headerContainer .headerData {
+    margin : 15px;
     padding: 15px;
-    border: 1px solid var.$color-green;
+    border : 1px solid var.$color-green;
 }
 
 .myCvContainer .experienceContainer {
@@ -31,12 +35,12 @@
 }
 
 .myCvContainer .ToolsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: left;
 }
 
-.myCvContainer .myCVSection{
-    margin-top: 30px;
+.myCvContainer .myCVSection {
+    margin-top   : 30px;
     margin-bottom: 30px;
 }

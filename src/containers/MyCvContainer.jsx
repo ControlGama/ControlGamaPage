@@ -128,10 +128,54 @@ const MyCvContainer = () => {
     },
   ];
 
+  const coursesData = [
+    {
+      title: "JavaScript",
+      coursesItems:[
+        {
+          courseName: "qwdqwd",
+          entity: "Platzi",
+          expedition: "2022",
+          link: ""
+        },
+        {
+          courseName: "wqqwdqw",
+          entity: "Platzi",
+          expedition: "2022",
+          link: ""
+        }
+      ]
+    },
+    {
+      title: "PHP",
+      coursesItems:[
+        {
+          courseName: "lkjlkwejqw",
+          entity: "Platzi",
+          expedition: "2022",
+          link: ""
+        },
+        {
+          courseName: "lkerkmfelrf",
+          entity: "Platzi",
+          expedition: "2022",
+          link: ""
+        },
+        {
+          courseName: "lplpadsmk",
+          entity: "Platzi",
+          expedition: "2022",
+          link: ""
+        }
+      ]
+    }
+
+  ]
+
   return (
     <div className="myCvContainer">
       <div className="myCVSection">
-        <h2>Desarrollador SAP-ABAP / WEB </h2>
+        <h2>Desarrollador</h2>
         <h2>Nahaliel Gamaliel Rios Martinez</h2>
       </div>
 
@@ -155,6 +199,18 @@ const MyCvContainer = () => {
       </div>
 
       <div className="myCVSection">
+        <h2>🧰🧰 Lenguajes y herramientas de trabajo 🧰🧰</h2>
+      </div>
+
+      <div className="ToolsContainer">
+        <ToolsBox data={toolsData[0]}></ToolsBox>
+        <ToolsBox data={toolsData[1]}></ToolsBox>
+        <ToolsBox data={toolsData[2]}></ToolsBox>
+        <ToolsBox data={toolsData[3]}></ToolsBox>
+        <ToolsBox data={toolsData[4]}></ToolsBox>
+      </div>
+
+      <div className="myCVSection">
         <h2>🎓🎓 Educación 🎓🎓</h2>
       </div>
 
@@ -173,19 +229,9 @@ const MyCvContainer = () => {
         <h2>🔥🔥 Formacion Continua 🔥🔥</h2>
       </div>
 
-      <CoursesBox />
+      <CoursesBox data={coursesData[0]}/>
+      <CoursesBox data={coursesData[1]}/>
 
-      <div className="myCVSection">
-        <h2>🧰🧰 Lenguajes y herramientas de trabajo 🧰🧰</h2>
-      </div>
-
-      <div className="ToolsContainer">
-        <ToolsBox data={toolsData[0]}></ToolsBox>
-        <ToolsBox data={toolsData[1]}></ToolsBox>
-        <ToolsBox data={toolsData[2]}></ToolsBox>
-        <ToolsBox data={toolsData[3]}></ToolsBox>
-        <ToolsBox data={toolsData[4]}></ToolsBox>
-      </div>
     </div>
   );
 };
