@@ -1,5 +1,5 @@
 import React from "react";
-import "@styles/socialNetworkItem.scss"
+import "@styles/componentsStyles/socialNetworkItem.scss"
 
 const SocialNetworkItem = ({item}) => {
   return (

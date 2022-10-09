@@ -7,7 +7,7 @@ import {
   Linkedin,
   Gmail,
 } from "@icons-pack/react-simple-icons";
-import "@styles/SocialNetworks.scss";
+import "@styles/containersStyles/socialNetworks.scss";
 
 const SocialNetworks = ({ title }) => {
   const socialNetworkData = [

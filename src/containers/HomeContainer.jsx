@@ -2,7 +2,7 @@ import React from "react";
 import DataBox from "@components/DataBox";
 import SocialNetworks from "@containers/SocialNetworks";
 import { useTranslation } from "react-i18next";
-import "@styles/HomeContainer.scss";
+import "@styles/containersStyles/homeContainer.scss";
 
 const HomeContainer = () => {
   const { t } = useTranslation("Home");

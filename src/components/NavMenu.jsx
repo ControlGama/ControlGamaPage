@@ -1,6 +1,6 @@
 import React from "react";
 import NavItem from "@components/NavItem";
-import "@styles/NavMenu.scss";
+import "@styles/componentsStyles/navMenu.scss";
 
 const NavMenu = ({ itemsMenu }) => {
   return (

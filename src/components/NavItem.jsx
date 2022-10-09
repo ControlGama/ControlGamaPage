@@ -1,5 +1,5 @@
 import React from 'react'
-import '@styles/NavItem.scss'
+import '@styles/componentsStyles/navItem.scss'
 
 const NavItem = ({itemMenu}) => {
   return (

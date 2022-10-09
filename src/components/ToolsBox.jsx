@@ -1,5 +1,5 @@
 import React from "react";
-import "@styles/ToolsBox.scss";
+import "@styles/componentsStyles/toolsBox.scss";
 
 const ToolsBox = () => {
   return (

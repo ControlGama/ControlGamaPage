@@ -3,7 +3,7 @@ import NavMenu from "@components/NavMenu";
 import NavMenuMobile from "@components/NavMenuMobile";
 import { HomeIcon, TrendingUpIcon, CogIcon } from "@heroicons/react/solid";
 import { useTranslation } from "react-i18next";
-import "@styles/Header.scss";
+import "@styles/componentsStyles/header.scss";
 
 const Header = () => {
 

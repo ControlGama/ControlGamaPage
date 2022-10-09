@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavItem from "@components/NavItem";
 import { MenuIcon } from "@heroicons/react/solid";
-import "@styles/NavMenuMoile.scss";
+import "@styles/componentsStyles/navMenuMoile.scss";
 
 
 const NavMenuMoile = ({itemsMenu}) => {
