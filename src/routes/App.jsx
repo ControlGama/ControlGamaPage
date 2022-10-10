@@ -4,6 +4,7 @@ import Layout from "@containers/Layout";
 import NotFound from "../pages/NotFound";
 import Home from "@pages/Home";
 import MyCV from "@pages/MyCV";
+import Settings from "@pages/Settings";
 import '@styles/global_styles.scss'
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={ <Home /> } />
           <Route path="MyCV" element={ <MyCV /> } />
+          <Route path="Settings" element={ <Settings /> } />
 
           <Route path="*" element={ <NotFound /> } />
         </Routes>

@@ -12,7 +12,7 @@ const Header = () => {
   const itemsMenu = [
     { name: t("Home"), link: "/", icon: HomeIcon },
     { name: t("workHistory"), link: "/MyCV", icon: TrendingUpIcon },
-    { name: t("settings"), link: "/PageSettings", icon: CogIcon },
+    { name: t("settings"), link: "/Settings", icon: CogIcon },
   ];
 
   return (

@@ -1,0 +1,10 @@
+@use '@styles/global_variables'as var;
+
+.pageNotFound{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    height: 80vh;
+}

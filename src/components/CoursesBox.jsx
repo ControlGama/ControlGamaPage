@@ -1,6 +1,6 @@
 import React from "react";
 import "@styles/componentsStyles/coursesBox.scss";
-import CoursesBoxItem from "@components/CoursesBoxItem.jsx";
+import CoursesBoxItem from "@components/coursesBoxItem.jsx";
 
 const CoursesBox = ({ data }) => {
   return (
