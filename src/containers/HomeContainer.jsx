@@ -5,21 +5,12 @@ import { useTranslation } from "react-i18next";
 import "@styles/containersStyles/homeContainer.scss";
 
 const HomeContainer = () => {
-  const { t } = useTranslation("Home");
+  const { t, i18n, ready } = useTranslation("Home");
 
-  const infoData = [
-    {
-      key: "aboutMe",
-      title: t("aboutMeTitle"),
-      body: t("aboutMeBody", { returnObjects: true }),
-    },
+  if (!ready) return "";
 
-    {
-      key: "aboutSite",
-      title: t("aboutSiteTitle"),
-      body: t("aboutSiteBody", { returnObjects: true }),
-    },
-  ];
+  const infoData = t("infoData", { returnObjects: true })
+
 
   return (
     <div className="home-container">

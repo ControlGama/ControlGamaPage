@@ -7,10 +7,12 @@ import "@styles/componentsStyles/header.scss";
 
 const Header = () => {
 
-  const { t } = useTranslation("Header");
+  const { t, i18n, ready } = useTranslation("Header");
+
+  if (!ready) return "";
 
   const itemsMenu = [
-    { name: t("Home"), link: "/", icon: HomeIcon },
+    { name: t("home"), link: "/", icon: HomeIcon },
     { name: t("workHistory"), link: "/MyCV", icon: TrendingUpIcon },
     { name: t("settings"), link: "/Settings", icon: CogIcon },
   ];

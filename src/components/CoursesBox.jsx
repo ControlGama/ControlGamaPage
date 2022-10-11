@@ -7,8 +7,8 @@ const CoursesBox = ({ data }) => {
     <div className="CoursesBox">
       <div className="CoursesTitle">{data.title}</div>
       <div className="CoursesBody">
-        {data.coursesItems.map((item, idex) => {
-          return <CoursesBoxItem itemData={item} />;
+        {data.coursesItems.map((item, index) => {
+          return <CoursesBoxItem key={`sdcsdcrefd+${index}`} itemData={item} />;
         })}
       </div>
     </div>
