@@ -71,18 +71,6 @@ const MyCvContainer = () => {
       </div>
 
       <div className="myCVSection">
-        <h2>🧰🧰 {t("subtitleTools")} 🧰🧰</h2>
-      </div>
-
-      <div className="ToolsContainer">
-        {toolsData.map((item, index) => {
-          return (
-            <ToolsBox key={`toolsData${item.Key}${index}`} data={item} />
-          );
-        })}
-      </div>
-
-      <div className="myCVSection">
         <h2>🎓🎓 {t("subtitleEducation")} 🎓🎓</h2>
       </div>
 
@@ -91,8 +79,6 @@ const MyCvContainer = () => {
           <EducationBox key={`educationData${item.Key}${index}`} data={item} />
         );
       })}
-      {/* <EducationBox data={educationData[0]} />
-      <EducationBox data={educationData[1]} /> */}
 
       <div className="myCVSection">
         <h2>👨‍💼👨‍💼 {t("subtitleExperience")} 👨‍💼👨‍💼</h2>
@@ -107,9 +93,15 @@ const MyCvContainer = () => {
         );
       })}
 
-      {/* <ExperienceBox data={experienceData[0]} />
-      <ExperienceBox data={experienceData[1]} />
-      <ExperienceBox data={experienceData[2]} /> */}
+      <div className="myCVSection">
+        <h2>🧰🧰 {t("subtitleTools")} 🧰🧰</h2>
+      </div>
+
+      <div className="ToolsContainer">
+        {toolsData.map((item, index) => {
+          return <ToolsBox key={`toolsData${item.Key}${index}`} data={item} />;
+        })}
+      </div>
 
       <div className="myCVSection">
         <h2>🔥🔥 {t("subtitleCourses")} 🔥🔥</h2>

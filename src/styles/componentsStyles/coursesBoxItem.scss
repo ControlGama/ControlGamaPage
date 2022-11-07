@@ -1,14 +1,14 @@
-@use '@styles/global_variables' as var;
+@use '@styles/global_variables'as var;
 
-.CoursesBoxItem{
+.CoursesBoxItem {
     margin: 15px;
-} 
+}
 
-.CoursesBoxItem .CoursesItem{
-    padding: 15px;
-    background-color: #11982335;
-    font-size: 1.4rem;
+.CoursesBoxItem .CoursesItem {
+    padding      : 15px;
+    font-size    : 1.4rem;
     border-radius: 20px;
+    border       : 1px solid var.$color-green;
 }
 
 .CoursesBoxItem a:link,

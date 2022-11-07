@@ -2,7 +2,6 @@
 
 .myCvContainer {
     margin        : 30px 70px 10px 70px;
-    // font-family   : Helvetica, Arial, Verdana, sans-serif;
     letter-spacing: 0.1rem;
     line-height   : 1.5;
 }
@@ -43,4 +42,19 @@
 .myCvContainer .myCVSection {
     margin-top   : 30px;
     margin-bottom: 30px;
+}
+
+@media (max-width: var.$breakpoint-tablet) {
+    .myCvContainer {
+        margin: 10px 0 0 0;
+    }
+
+    .myCvContainer .headerContainer {
+        grid-template-columns: 1fr;
+        grid-template-rows   : fit-content(250px) 1fr;
+    }
+
+    .myCvContainer .ToolsContainer {
+        justify-content: center;
+    }
 }

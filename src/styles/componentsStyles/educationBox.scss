@@ -20,3 +20,10 @@
 .educationBox .leftEducationBox{
     text-align: center;
 }
+
+@media (max-width: var.$breakpoint-tablet) {
+    .educationBox {
+        grid-template-columns: 1fr;
+        grid-template-rows: fit-content(350px) 1fr;
+    }
+}
