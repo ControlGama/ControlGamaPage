@@ -9,7 +9,8 @@
 html {
     background    : var.$color-main-black;
     font-size     : 62.5%;
-    font-family   : 'Inconsolata', monospace;
+    font-family   : Helvetica, Arial, Verdana, sans-serif;
+    // font-family   : 'Inconsolata', monospace;
     color         : var.$color-withe;
     letter-spacing: 0.2rem;
 }

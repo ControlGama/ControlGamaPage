@@ -3,148 +3,506 @@
     "subtitleTools": "Lenguajes y herramientas de trabajo",
     "subtitleEducation": "Educación",
     "subtitleExperience": "Experiencia Laboral",
-    "subtitleCourses": "Formacion Continua",
+    "subtitleCourses": "Formación Continua",
     "headerData": [
-        "Desde que egresé de la preparatoria me he dedicado profesionalmente al desarrollo software.",
-        "He trabajado con una gran variedad de clientes de diferentes giros, lo que me ha permitido conocer y adaptarme a los entornos cambiantes de la industria.",
-        "Me gusta trabajar de forma ordenada y organizada con base a objetivos.",
+        "Desde que egresé de la preparatoria me he dedicado profesionalmente al desarrollo de software.",
+        "Me gusta trabajar de forma ordenada y organizada con base en objetivos.",
         "Creo que la responsabilidad es mi principal virtud."
     ],
     "educationData": [
         {
+            "key": "CETIS",
             "title": "Centro de Estudios Tecnológicos Industriales y de Servicios #101",
             "duration": "2010 - 2013",
             "subtitle": "Técnico en Informática",
-            "description": "En 2013 me gradué de esta institución como técnico en informática. Aquí adquirir los principios básicos de la programación. En aquel entonces la escuela usaba para enseñar Visual Basic como lenguaje y Microsoft Access como base de datos, que, aunque no son las herramientas más populares, al menos a mí me sirvieron mucho para aprender."
+            "description": "En 2013, me gradué de esta institución como técnico en informática. Aquí adquirir los principios básicos de la programación. Gracias a esto pude hacer mis prácticas profesionales en una consultoría, en donde después me contratarían como interno."
         },
         {
+            "key": "FIME",
             "title": "Facultad de Ingeniería Mecánica y Eléctrica",
             "duration": "2016 - Actualidad",
             "subtitle": "Ingeniero en Tecnología de Software",
-            "description": "Actualmente me encuentro cursando la carrera, con miras a terminarla el próximo año. Durante el periodo de estudios he logrado ampliar el panorama que tenía de la ingeniería de software, además de empatizar y adquirir los valores de la institución."
+            "description": "Actualmente, me encuentro cursando la carrera en la UANL. Tengo como objetivo terminarla y graduarme el próximo año. "
         }
     ],
     "experienceData": [
         {
+            "key": "LINKTECH",
             "title": "LinkTech",
             "duration": "jun.2013 - nov.2017",
-            "subtitle": "Consultor de SAP-ABAP",
-            "description": "Linktech fue la empresa donde inicie mi trayectoria laboral. Durante mi estancia en la empresa participe en una gran cantidad de proyectos y requerimientos de diversos clientes, principalmente como consultor ABAP. Durante el tiempo que trabajé en la empresa tuve la fortuna de ser asesorado por excelentes compañeros con muchos años de experiencia. Todos estos factores me dejaron una gran experiencia y un conocimiento invaluable.",
-            "projects": [
-                {
-                    "key": "Link",
-                    "proyectName": "Cliente: Nutec",
-                    "rol": "Consultor ABAP",
-                    "description": "Creación de programas Abap. Como reportes, interfases, User Exit siguiendo las mejores prácticas de programación garantizando el buen funcionamiento del programa creando documentación de los programas desarrollados, los cuales se suben a un repositorio. Se realizó control de calidad de los desarrollos realizados por compañeros verificando que se hayan seguido los estándares de programación indicados. Resultados/Logros: Terminar los programas en tiempo y calidad correcta, donde se realiza la documentación de los programas desarrollados (Diseño Técnico, Documentación de pruebas Unitarias). "
-                },
-                {
-                    "key": "Link",
-                    "proyectName": "Cliente: Grupo Harinas Chihuahua ",
-                    "subtitle": "Rol Consultor ABAP ",
-                    "description": "Modificación de formularios estándar Smartforms para adaptarlos a la necesidades del Cliente Resultados/Logros: Terminar los programas en tiempo y calidad correcta, donde se realiza la documentación de los programas desarrollados (Diseño Técnico, Documentación de pruebas Unitarias). "
-                }
+            "subtitle": "Consultor SAP-ABAP",
+            "description": "Linktech fue la empresa donde inicié mi trayectoria laboral. Durante mi estancia en la empresa participé en una gran cantidad de proyectos y requerimientos de diversos clientes, principalmente como consultor ABAP. Durante el tiempo que trabajé en la empresa tuve la fortuna de ser asesorado por compañeros con muchos años de experiencia. Todos estos factores me dejaron una gran experiencia y un conocimiento invaluable.",
+            "responsibilities": [
+                "Atender tickets de la fábrica de software relacionados con, creación de reportes, formularios, Module pools, implementación de user exits, etc",
+                "Atender tickets de la mesa de ayuda, como, correcciones a programas, actualizaciones de programas, debugs, implementación de notas, optimizaciones, etc",
+                "Participación directa en proyectos de clientes a través de asignaciones",
+                "Participar en los proyectos internos de la empresa como facturación y contabilidad electrónica",
+                "PRs a programas de mis compañeros",
+                "Generación de documentación técnica"
             ]
         },
         {
+            "key": "IDS",
             "title": "IDS comercial TI",
             "duration": "dic.2017 - ene.2019 ",
             "subtitle": "Consultor de SAP-ABAP",
-            "description": "IDS fue mi siguiente reto profesional, la consultoría me contrato principalmente para apoyar con los requerimientos de ABAP un proyecto con PEPSICO, aunque el proyecto fue breve considero que me dejo un gran aprendizaje sobre todo por la forma tan ordenada de trabajar que tenían.",
-            "projects": [
-                {
-                    "key": "IDS",
-                    "proyectName": "Cliente: Grupo Harinas Chihuahua ",
-                    "rol": "Consultor ABAP ",
-                    "description": "Modificación de formularios estándar Smartforms para adaptarlos a la necesidades del Cliente Resultados/Logros: Terminar los programas en tiempo y calidad correcta, donde se realiza la documentación de los programas desarrollados (Diseño Técnico, Documentación de pruebas Unitarias). "
-                },
-                {
-                    "key": "IDS",
-                    "proyectName": "Cliente: Grupo Harinas Chihuahua ",
-                    "rol": "Consultor ABAP ",
-                    "description": "Modificación de formularios estándar Smartforms para adaptarlos a la necesidades del Cliente Resultados/Logros: Terminar los programas en tiempo y calidad correcta, donde se realiza la documentación de los programas desarrollados (Diseño Técnico, Documentación de pruebas Unitarias). "
-                }
+            "description": "Atender los requerimientos que liberaba el equipo funcional como, generación de reportes, modificación de IDOCs, generación de formatos, etc.",
+            "responsibilities": [
+                "Atender los requerimientos que liberaba el equipo funcional, como, generación de reportes, modificación de IDOCs, generación de formatos, etc",
+                "Apoyar en la investigación de requerimientos especiales que necesitaba el cliente",
+                "Generación de documentación técnica"
             ]
         },
         {
+            "key": "PALMEX",
             "title": "Palmex Alimentos",
             "duration": "ene.2019 - Actualidad",
             "subtitle": "Especialista en desarrollo",
-            "description": "Actualmente Palmex es la empresa en donde estoy trabajando, aunque mi principal rol cuando entré a la empresa era dar soporte y mantenimiento a los programas ABAP, poco a poco fui tomando más responsabilidades y empecé a trabajar con más tecnologías que usa la empresa como: PHP, SQL Server, .NET y Tableau.",
-            "projects": [
-                {
-                    "key": "Palmex",
-                    "proyectName": "Cliente: Grupo Harinas Chihuahua ",
-                    "rol": "Consultor ABAP ",
-                    "description": "Modificación de formularios estándar Smartforms para adaptarlos a la necesidades del Cliente Resultados/Logros: Terminar los programas en tiempo y calidad correcta, donde se realiza la documentación de los programas desarrollados (Diseño Técnico, Documentación de pruebas Unitarias). "
-                }
+            "description": "Actualmente Palmex es la empresa donde trabajo, aunque mi función principal cuando entré a la empresa era dar soporte y mantenimiento a los programas ABAP, poco a poco asumí más responsabilidades y comencé a trabajar con más tecnologías utilizadas por la empresa, tales como: PHP , SQL Server, .NET, Tableau, etc.",
+            "responsibilities": [
+                "Creación y mantenimiento de programas ABAP",
+                "Creación y mantenimiento de programas en .Net",
+                "Creación y mantenimiento de programas en MS SQL",
+                "Mantenimiento de los tableros Tableau de la empresa",
+                "Soporte y mantenimiento de la intranet de la empresa",
+                "Soporte y mantenimiento de la facturación electrónica",
+                "Seguimiento a proyectos con proveedores",
+                "Generación de documentación técnica"
             ]
         }
     ],
     "toolsData": [
         {
+            "key": "SAP",
             "icon": "Sap",
             "title": "SAP-ABAP",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores odit rerum ea repudiandae labore a amet blanditiis nesciunt temporibus facere facilis, nobis vero corrupti minima ratione veritatis assumenda deleniti tempora!"
+            "description": "Manejo de: reportes ALV, Module Pools, SmartForms, SapScripts, Módulos de Función, RFCs, Web Services, User Exits, Enhancements, BADIs, BAPIs, diccionario de datos (tablas, estructuras, elementos de datos, dominio de datos, vistas), creación de JOBs. Conocimiento general sobre los módulos MM, SD, FI y PP"
         },
         {
+            "key": "JS",
             "icon": "Javascript",
             "title": "JavaScript",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores odit rerum ea repudiandae labore a amet blanditiis nesciunt temporibus facere facilis, nobis vero corrupti minima ratione veritatis assumenda deleniti tempora!"
+            "description": "Conocimiento de herramientas Front-end como: React, NextJS, JQuery y Angular. Conocimiento de herramientas Back-end como: ExpressJS y NodeJS"
         },
         {
+            "key": "PHP",
             "icon": "Php",
             "title": "PHP",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores odit rerum ea repudiandae labore a amet blanditiis nesciunt temporibus facere facilis, nobis vero corrupti minima ratione veritatis assumenda deleniti tempora!"
+            "description": "Generación de aplicaciones en PHP con Codeigniter como Framework"
         },
         {
+            "key": "Base de datos",
             "icon": "Microsoftsqlserver",
             "title": "SQL Server",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores odit rerum ea repudiandae labore a amet blanditiis nesciunt temporibus facere facilis, nobis vero corrupti minima ratione veritatis assumenda deleniti tempora!"
+            "description": "Conocimiento de motores de base de datos: MS SQL, MySQL y PostgreSQL. Creación de bases de datos, tablas, vistas, procedimientos almacenados, calendarización de tareas (JOBS). Conocimientos generales de bases de datos NoSQL, como Firebase y MongoDB "
         },
         {
+            "key": "HTML",
             "icon": "Html5",
-            "title": "HTML",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores odit rerum ea repudiandae labore a amet blanditiis nesciunt temporibus facere facilis, nobis vero corrupti minima ratione veritatis assumenda deleniti tempora!"
+            "title": "HTML y CSS",
+            "description": "Creación de templetes con HTML y CSS. Manejo del doom con JavaScript. Manejo de CSS Grid y flexbox. Manejo de Animaciones con CSS. Conocimiento bootstrap y tailwind."
         }
     ],
     "coursesData": [
         {
+            "Key": "JavaScript",
             "title": "JavaScript",
             "coursesItems": [
                 {
-                    "courseName": "qwdqwd",
-                    "entity": "Platzi",
-                    "expedition": "2022",
-                    "link": ""
+                    "courseName": "Curso Básico de JavaScript",
+                    "expedition": "2021-10-18T00:43:09.872411+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1814-basico-javascript/diploma/detalle/",
+                    "entity": "Platzi"
                 },
                 {
-                    "courseName": "wqqwdqw",
-                    "entity": "Platzi",
-                    "expedition": "2022",
-                    "link": ""
+                    "courseName": "Curso Básico de Programación Orientada a Objetos con JavaScript",
+                    "expedition": "2022-01-13T18:55:21.121596+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2332-javascript-poo/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Backend con Node.js: API REST con Express.js",
+                    "expedition": "2022-08-05T22:13:11.804895+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2485-backend-nodejs/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Backend con Node.js: Base de Datos con PostgreSQL",
+                    "expedition": "2022-08-21T20:21:23.295299+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2507-backend-nodejs-postgres/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Consumo de API REST con JavaScript",
+                    "expedition": "2022-06-11T16:44:21.023565+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2985-api/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de JavaScript Engine (V8) y el Navegador",
+                    "expedition": "2022-05-25T23:20:33.350144+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1798-javascript-navegador/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Manipulación de Arrays en JavaScript",
+                    "expedition": "2022-05-19T18:38:57.125907+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2461-arrays/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Fundamentos de Node.js",
+                    "expedition": "2022-07-30T15:58:27.441560+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1759-fundamentos-node/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Gestión de Dependencias y Paquetes con NPM",
+                    "expedition": "2022-06-05T16:34:35.645237+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1763-npm-js/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Frameworks y Librerías de JavaScript",
+                    "expedition": "2021-12-22T03:35:06.288389+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2239-frameworks-javascript/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de ECMAScript 6+",
+                    "expedition": "2022-05-07T02:19:21.098816+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1815-ecmascript-6/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Webpack",
+                    "expedition": "2022-07-02T16:30:04.697924+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2242-webpack/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Intermedio de Programación Orientada a Objetos en JavaScript",
+                    "expedition": "2022-04-28T00:28:49.816673+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2419-javascript-poo-intermedio/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Práctico de Consumo de API REST con JavaScript",
+                    "expedition": "2022-06-16T00:29:18.609347+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2986-api-practico/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Práctico de JavaScript",
+                    "expedition": "2021-11-13T17:42:40.805662+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2327-javascript-practico-2021/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Práctico de Next.js",
+                    "expedition": "2022-07-18T12:57:30.224979+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2690-nextjs-practico/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Práctico de React.js",
+                    "expedition": "2022-07-12T03:23:30.848968+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2484-react-practico/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Profesional de Consumo de API REST con JavaScript",
+                    "expedition": "2022-06-24T00:54:14.050380+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2942-api-profesional/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Profesional de Next.js",
+                    "expedition": "2022-07-24T00:42:45.985195+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2707-profesional-nextjs/diploma/detalle/",
+                    "entity": "Platzi"
                 }
             ]
         },
         {
+            "Key": "HTMLCSS",
+            "title": "HTML y CSS",
+            "coursesItems": [
+                {
+                    "courseName": "Curso de Animaciones con CSS",
+                    "expedition": "2022-04-11T01:32:49.756547+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2337-animaciones-css/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Definitivo de HTML y CSS",
+                    "expedition": "2022-04-17T19:23:13.050865+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2008-html-css/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Diseño Web con CSS Grid y Flexbox",
+                    "expedition": "2022-04-01T15:45:20.839491+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2229-flexbox-css-grid/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de CSS Grid Básico",
+                    "expedition": "2022-03-06T03:48:17.382370+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2474-css-grid/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Frameworks y Librerías de JavaScript",
+                    "expedition": "2021-12-22T03:35:06.288389+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2239-frameworks-javascript/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Manipulación del DOM",
+                    "expedition": "2022-01-09T20:02:36.247350+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2193-dom/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Práctico de Maquetación en CSS",
+                    "expedition": "2022-03-12T17:25:03.166276+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1744-practico-css/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Transformaciones y Transiciones en CSS",
+                    "expedition": "2022-04-09T00:01:19.813200+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2336-transformaciones-transiciones-css/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Práctico de HTML y CSS",
+                    "expedition": "2021-08-29T16:08:00.930715+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1758-html-practico/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Profesional de CSS Grid Layout",
+                    "expedition": "2022-03-27T18:46:06.085723+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2222-css-grid-layout/diploma/detalle/",
+                    "entity": "Platzi"
+                }
+            ]
+        },
+        {
+            "Key": "OTROS",
+            "title": "Otros",
+            "coursesItems": [
+                {
+                    "courseName": "Curso Avanzado de Redes de Internet",
+                    "expedition": "2022-09-16T21:16:57.216387+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1770-avanzado-redes/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Básico de Programación",
+                    "expedition": "2022-01-22T04:51:45.913970+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1050-basico-programacion/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Computación Básica",
+                    "expedition": "2022-03-27T18:51:55.998234+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2793-computacion-basica/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Computación Básica",
+                    "expedition": "2021-10-02T16:45:20.871854+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1741-computacion-basica-2019/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Flujo de Desarrollo Moderno CodeStream",
+                    "expedition": "2022-02-20T20:54:39.313184+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2157-desarrollo-moderno-codestream/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Diseño para Developers",
+                    "expedition": "2021-10-02T16:34:42.432755+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1906-diseno-programadores/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Fundamentos de Bases de Datos",
+                    "expedition": "2020-05-02T20:56:15.106246+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1566-bd/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Fundamentos de .NET",
+                    "expedition": "2022-10-02T22:38:37.088007+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2883-fundamentos-net/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Inglés Básico A1: Tus Primeras Conversaciones",
+                    "expedition": "2021-02-25T00:21:21.798684+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1945-ingles-principiantes/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Introducción a la Terminal y Línea de Comandos",
+                    "expedition": "2022-02-13T01:19:25.299174+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2292-terminal/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Introducción a la Web: Historia y Funcionamiento de Internet",
+                    "expedition": "2021-01-02T22:52:19.661988+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2053-introweb/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Introducción al Desarrollo Backend",
+                    "expedition": "2022-09-27T12:51:59.629054+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2508-introduccion-backend/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Introducción a Platzi",
+                    "expedition": "2022-09-23T02:57:52.819122+00:00",
+                    "diploma_link": "/p/ControlGama/curso/3865-introduccion-platzi/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Prework: Configuración de Entorno de Desarrollo en macOS",
+                    "expedition": "2022-10-08T14:59:42.435803+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2214-prework-macos/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Prework: Configuración de Entorno de Desarrollo en Windows",
+                    "expedition": "2022-02-05T17:01:14.531859+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2042-prework-windows/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Programación Orientada a Objetos: POO",
+                    "expedition": "2020-04-24T04:11:21.775600+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1474-oop/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Redes Informáticas de Internet",
+                    "expedition": "2022-09-04T18:41:00.205883+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2225-redes/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Responsive Design: Maquetación Mobile First",
+                    "expedition": "2021-09-18T15:20:00.443908+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2030-mobile-first/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Sistemas de Diseño",
+                    "expedition": "2022-02-27T19:47:17.267354+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1420-sistemas-diseno/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de SQL en Azure",
+                    "expedition": "2020-04-19T16:16:53.627077+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1706-sql-azure/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Tableau: Visualización de Datos y Storytelling para Negocios",
+                    "expedition": "2022-10-07T14:02:12.404009+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2197-tableau/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Profesional de Git y GitHub",
+                    "expedition": "2019-07-27T03:15:20.685908+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1557-git-github/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Fundamentos de Ingeniería de Software",
+                    "expedition": "2022-02-05T16:50:28.399298+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1098-ingenieria/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Guía para Aprender Seguridad Informática",
+                    "expedition": "2022-06-18T00:15:11.578824+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2241-guia-seguridad-informatica/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Nuevo Curso Gratis de Programación Básica",
+                    "expedition": "2022-09-25T16:20:54.803497+00:00",
+                    "diploma_link": "/p/ControlGama/curso/3208-programacion-basica/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso Práctico de SQL",
+                    "expedition": "2022-10-16T20:52:46.395215+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2059-practico-sql/diploma/detalle/",
+                    "entity": "Platzi"
+                }
+            ]
+        },
+        {
+            "Key": "ANDROID",
+            "title": "Android",
+            "coursesItems": [
+                {
+                    "courseName": "Curso Básico de Diseño de Interfaces con Android Studio",
+                    "expedition": "2020-04-18T22:18:58.539651+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1825-interfaces-android/diploma/detalle/",
+                    "entity": "Platzi"
+                }
+            ]
+        },
+        {
+            "Key": "PYTHON",
+            "title": "Python",
+            "coursesItems": [
+                {
+                    "courseName": "Curso de Introducción al Pensamiento Computacional con Python",
+                    "expedition": "2020-06-27T18:26:53.660933+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1764-python-cs/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Introducción al Pensamiento Probabilístico",
+                    "expedition": "2021-01-10T22:41:11.695349+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1841-probabilistica/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de POO y Algoritmos con Python",
+                    "expedition": "2020-07-05T23:48:15.856449+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1775-poo-python/diploma/detalle/",
+                    "entity": "Platzi"
+                }
+            ]
+        },
+        {
+            "Key": "PHP",
             "title": "PHP",
             "coursesItems": [
                 {
-                    "courseName": "lkjlkwejqw",
-                    "entity": "Platzi",
-                    "expedition": "2022",
-                    "link": ""
+                    "courseName": "Curso de Introducción a PHP 2018",
+                    "expedition": "2020-01-01T03:31:25.230345+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1338-introduccion-php-2018/diploma/detalle/",
+                    "entity": "Platzi"
                 },
                 {
-                    "courseName": "lkerkmfelrf",
-                    "entity": "Platzi",
-                    "expedition": "2022",
-                    "link": ""
-                },
-                {
-                    "courseName": "lplpadsmk",
-                    "entity": "Platzi",
-                    "expedition": "2022",
-                    "link": ""
+                    "courseName": "Curso Avanzado de PHP",
+                    "expedition": "2020-12-21T03:31:25.230345+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1462-php-avanzado/diploma/detalle/",
+                    "entity": "Platzi"
                 }
             ]
         }
