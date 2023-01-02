@@ -26,7 +26,9 @@ const SettingsContainer = () => {
 
   return (
     <div className="settingsContainer">
+      
       <form className="settingsForm">
+        
         <div className="settingsRow">
           <label htmlFor="languageField">{t("language")}</label>
 
@@ -46,6 +48,7 @@ const SettingsContainer = () => {
           </button>
         </div>
       </form>
+
     </div>
   );
 };

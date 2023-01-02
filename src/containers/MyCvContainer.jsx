@@ -23,7 +23,33 @@ const MyCvContainer = () => {
   const experienceData = t("experienceData", { returnObjects: true });
   const toolsData = t("toolsData", { returnObjects: true });
   const coursesData = t("coursesData", { returnObjects: true });
+  const texts_CoursesBoxItem = {
+    entity: t("entity"),
+    expedition_date: t("expedition_date")
+  };
 
+  const sortData = (data) => {
+    const newCoursesItems = data.coursesItems.sort((a, b) => {
+      const dateA = new Date(a.expedition)
+      const dateB = new Date(b.expedition)
+   
+      if (dateA > dateB) {
+        return -1;
+      }
+      if (dateA < dateB) {
+        return 1;
+      }
+   
+      return 0;
+    });
+  
+  
+    return {
+      ...data,
+      coursesItems: newCoursesItems
+    };
+  }
+ 
   toolsData.forEach((element) => {
     switch (element.icon) {
       case "Sap":
@@ -108,8 +134,11 @@ const MyCvContainer = () => {
       </div>
 
       {coursesData.map((item, index) => {
+        
+        const newItem = sortData(item);
+
         return (
-          <CoursesBox key={`coursesData${item.Key}${index}`} data={item} />
+          <CoursesBox key={`coursesData${item.Key}${index}`} data={{item:newItem,texts_CoursesBoxItem}} />
         );
       })}
     </div>

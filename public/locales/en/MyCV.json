@@ -1,9 +1,11 @@
 {
     "mainTitle": "Developer",
-    "subtitleTools": "Languages and work tools",
+    "subtitleTools": "Work tools",
     "subtitleEducation": "Education",
     "subtitleExperience": "Work Experience",
     "subtitleCourses": "Continuing Education",
+    "entity": "Issued by",
+    "expedition_date": "Issued on",
     "headerData": [
         "Since I graduated from high school I have dedicated myself professionally to software development.",
         "I like to work in an orderly and organized way based on objectives.",
@@ -76,31 +78,44 @@
             "key": "SAP",
             "icon": "Sap",
             "title": "SAP-ABAP",
-            "description": "Manejo de: reportes ALV, Module Pools, SmartForms, SapScripts, Módulos de Función, RFCs, Web Services, User Exits, Enhancements, BADIs, BAPIs, diccionario de datos (tablas, estructuras, elementos de datos, dominio de datos, vistas), creación de JOBs. Conocimiento general sobre los módulos MM, SD, FI y PP"
+            "description": [
+                "Management of ALV Reports, Module Pools, SmartForms, SapScripts, Function Modules, RFCs, Web Services, User Exits, Enhancements, BADIs, BAPIs, data dictionary, task scheduling, etc.",
+                "General knowledge of the MM, SD, FI and PP modules"
+            ]
         },
         {
             "key": "JS",
             "icon": "Javascript",
             "title": "JavaScript",
-            "description": "Conocimiento de herramientas Front-end como: React, NextJS, JQuery y Angular. Conocimiento de herramientas Back-end como: ExpressJS y NodeJS"
+            "description": [
+                "Knowledge of Front-end tools such as: React, NextJS, JQuery and Angular.",
+                "Knowledge of Back-end tools such as: ExpressJS and NodeJS."
+            ]
         },
         {
             "key": "PHP",
             "icon": "Php",
             "title": "PHP",
-            "description": "Generación de aplicaciones en PHP con Codeigniter como Framework"
+            "description": [
+                "Generation of applications in PHP with Codeigniter as Framework."
+            ]
         },
         {
             "key": "Base de datos",
             "icon": "Microsoftsqlserver",
-            "title": "SQL Server",
-            "description": "Conocimiento de motores de base de datos: MS SQL, MySQL y PostgreSQL. Creación de bases de datos, tablas, vistas, procedimientos almacenados, calendarización de tareas (JOBS). Conocimientos generales de bases de datos NoSQL, como Firebase y MongoDB "
+            "title": "SQL",
+            "description": [
+                "Knowledge of database engines: MS SQL, MySQL and PostgreSQL. Creation of databases, tables, views, stored procedures, task scheduling, etc.",
+                "General knowledge of NoSQL databases, such as Firebase and MongoDB."
+            ]
         },
         {
             "key": "HTML",
             "icon": "Html5",
             "title": "HTML y CSS",
-            "description": "Creación de templetes con HTML y CSS. Manejo del doom con JavaScript. Manejo de CSS Grid y flexbox. Manejo de Animaciones con CSS. Conocimiento bootstrap y tailwind."
+            "description": [
+                "Creation of templates with HTML and CSS. Handling the dom with JavaScript. Management of CSS Grid and flexbox. Management of Animations with CSS. Knowledge of bootstrap and tailwind."
+            ]
         }
     ],
     "coursesData": [
@@ -108,6 +123,19 @@
             "Key": "JavaScript",
             "title": "JavaScript",
             "coursesItems": [
+                {
+                    "courseName": "Full Stack Developer con JavaScript",
+                    "expedition": "2022-12-12T00:43:09.872411+00:00",
+                    "diploma_link": "p/ControlGama/ruta/100-javascript-full-stack/diploma/detalle/",
+                    "school": true,
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Backend con Node.js: Autenticación con Passport.js y JWT",
+                    "expedition": "2022-11-06T21:49:52.103452+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2489-passport/diploma/detalle/",
+                    "entity": "Platzi"
+                },
                 {
                     "courseName": "Curso Básico de JavaScript",
                     "expedition": "2021-10-18T00:43:09.872411+00:00",
@@ -301,24 +329,6 @@
                     "entity": "Platzi"
                 },
                 {
-                    "courseName": "Curso Básico de Programación",
-                    "expedition": "2022-01-22T04:51:45.913970+00:00",
-                    "diploma_link": "/p/ControlGama/curso/1050-basico-programacion/diploma/detalle/",
-                    "entity": "Platzi"
-                },
-                {
-                    "courseName": "Curso de Computación Básica",
-                    "expedition": "2022-03-27T18:51:55.998234+00:00",
-                    "diploma_link": "/p/ControlGama/curso/2793-computacion-basica/diploma/detalle/",
-                    "entity": "Platzi"
-                },
-                {
-                    "courseName": "Curso de Computación Básica",
-                    "expedition": "2021-10-02T16:45:20.871854+00:00",
-                    "diploma_link": "/p/ControlGama/curso/1741-computacion-basica-2019/diploma/detalle/",
-                    "entity": "Platzi"
-                },
-                {
                     "courseName": "Curso de Flujo de Desarrollo Moderno CodeStream",
                     "expedition": "2022-02-20T20:54:39.313184+00:00",
                     "diploma_link": "/p/ControlGama/curso/2157-desarrollo-moderno-codestream/diploma/detalle/",
@@ -343,12 +353,6 @@
                     "entity": "Platzi"
                 },
                 {
-                    "courseName": "Curso de Inglés Básico A1: Tus Primeras Conversaciones",
-                    "expedition": "2021-02-25T00:21:21.798684+00:00",
-                    "diploma_link": "/p/ControlGama/curso/1945-ingles-principiantes/diploma/detalle/",
-                    "entity": "Platzi"
-                },
-                {
                     "courseName": "Curso de Introducción a la Terminal y Línea de Comandos",
                     "expedition": "2022-02-13T01:19:25.299174+00:00",
                     "diploma_link": "/p/ControlGama/curso/2292-terminal/diploma/detalle/",
@@ -364,24 +368,6 @@
                     "courseName": "Curso de Introducción al Desarrollo Backend",
                     "expedition": "2022-09-27T12:51:59.629054+00:00",
                     "diploma_link": "/p/ControlGama/curso/2508-introduccion-backend/diploma/detalle/",
-                    "entity": "Platzi"
-                },
-                {
-                    "courseName": "Curso de Introducción a Platzi",
-                    "expedition": "2022-09-23T02:57:52.819122+00:00",
-                    "diploma_link": "/p/ControlGama/curso/3865-introduccion-platzi/diploma/detalle/",
-                    "entity": "Platzi"
-                },
-                {
-                    "courseName": "Curso de Prework: Configuración de Entorno de Desarrollo en macOS",
-                    "expedition": "2022-10-08T14:59:42.435803+00:00",
-                    "diploma_link": "/p/ControlGama/curso/2214-prework-macos/diploma/detalle/",
-                    "entity": "Platzi"
-                },
-                {
-                    "courseName": "Curso de Prework: Configuración de Entorno de Desarrollo en Windows",
-                    "expedition": "2022-02-05T17:01:14.531859+00:00",
-                    "diploma_link": "/p/ControlGama/curso/2042-prework-windows/diploma/detalle/",
                     "entity": "Platzi"
                 },
                 {
@@ -439,15 +425,39 @@
                     "entity": "Platzi"
                 },
                 {
-                    "courseName": "Nuevo Curso Gratis de Programación Básica",
-                    "expedition": "2022-09-25T16:20:54.803497+00:00",
-                    "diploma_link": "/p/ControlGama/curso/3208-programacion-basica/diploma/detalle/",
-                    "entity": "Platzi"
-                },
-                {
                     "courseName": "Curso Práctico de SQL",
                     "expedition": "2022-10-16T20:52:46.395215+00:00",
                     "diploma_link": "/p/ControlGama/curso/2059-practico-sql/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Optimización de Bases de Datos en SQL Server",
+                    "expedition": "2022-10-29T02:51:52.585775+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2179-optimizacion-sql-server/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Análisis de Negocios para Ciencia de Datos",
+                    "expedition": "2022-11-11T14:27:49.343298+00:00",
+                    "diploma_link": "/p/ControlGama/curso/2069-negocios-data-science/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Introducción a Elasticsearch",
+                    "expedition": "2022-11-21T17:36:16.063927+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1912-intro-elasticsearch/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Inteligencia Emocional",
+                    "expedition": "2022-12-27T01:21:03.611974+00:00",
+                    "diploma_link": "/p/ControlGama/curso/1614-inteligencia-emocional/diploma/detalle/",
+                    "entity": "Platzi"
+                },
+                {
+                    "courseName": "Curso de Introducción a DevOps",
+                    "expedition": "2022-12-26T23:41:21.825980+00:00",
+                    "diploma_link": "/p/ControlGama/curso/4558-introduccion-devops/diploma/detalle/",
                     "entity": "Platzi"
                 }
             ]

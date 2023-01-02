@@ -8,7 +8,12 @@ const ToolsBox = ({ data }) => {
         <div className="headerToolsLogo">{<data.icon />}</div>
         <div className="headerToolsTitle">{data.title}</div>
       </div>
-      <div className="bodyToolsBox">{data.description}</div>
+      {data.description.map((item, index) => {
+        return (
+          <div key={`educationDataDiv${data.Key}${index}`} className="bodyToolsBox">{item}</div>    
+        );
+      })}      
+
     </div>
   );
 };

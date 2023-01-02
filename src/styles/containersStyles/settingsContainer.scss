@@ -30,3 +30,28 @@
     cursor          : pointer;
     font-size       : 2rem;
 }
+
+@media (max-width: var.$breakpoint-tablet) {
+    .settingsContainer {
+        margin: 10px 0 0 0;
+    }
+
+    .settingsContainer .settingsForm {
+        display              : grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .settingsContainer select {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    // .myCvContainer .headerContainer {
+    //     grid-template-columns: 1fr;
+    //     grid-template-rows   : fit-content(250px) 1fr;
+    // }
+
+    // .myCvContainer .ToolsContainer {
+    //     justify-content: center;
+    // }
+}
