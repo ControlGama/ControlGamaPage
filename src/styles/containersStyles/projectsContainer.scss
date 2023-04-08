@@ -1,0 +1,11 @@
+@use '@styles/global_variables'as var;
+
+.ProjectsContainer {
+    margin        : 30px 70px 10px 70px;
+    letter-spacing: 0.1rem;
+    line-height   : 1.5;
+    display        : flex;
+    flex-wrap      : wrap;
+    gap: 20px 50px;
+    justify-content: center;
+}
