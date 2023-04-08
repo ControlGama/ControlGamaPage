@@ -1,17 +1,17 @@
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require("copy-webpack-plugin");
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path')
 
 module.exports = {
     entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'js/[name].[contenthash].js',
-        publicPath: '/'
+        filename: 'bundle.js',
+        // publicPath: '/'
     },
-    mode: "production",
+    mode: "development",
     resolve: {
         extensions: ['.js', '.jsx'],
         alias: {
@@ -42,11 +42,11 @@ module.exports = {
             },
             {
                 test: /\.(css|scss)$/,
-                use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+                use: ["style-loader", "css-loader", "sass-loader"],
             },
             {
                 test: /\.(svg|png|jpg)$/,
-                type: 'asset/resource'
+                type: 'asset'
             }
         ]
     },
@@ -54,24 +54,24 @@ module.exports = {
         new HTMLWebpackPlugin({
             template: './public/index.html',
             filename: './index.html',
-            minify: {
-                removeAttributeQuotes: true,
-                collapseWhitespace: true,
-                removeComments: true
-            }
         }),
         new MiniCssExtractPlugin({
-            filename: 'css/[name].[contenthash].css'
+            filename: '[name].css'
         }),
         new CopyPlugin({
             patterns: [
                 {
                     // copy public folder, which contains locales for i18next
-                    from: path.join(__dirname, './public/locales'), to: path.join(__dirname, './dist/locales')                 
+                    from: path.join(__dirname, 'public/locales/'), to: path.join(__dirname, 'dist/locales/')                 
                 }
             ]
         }),
         new CleanWebpackPlugin()
     ],
-    devtool: false
+    devServer: {
+        allowedHosts: path.join(__dirname, 'dist'),
+        port: 3005,
+        compress: true,
+        historyApiFallback: true,
+    }
 }

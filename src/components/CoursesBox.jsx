@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import "@styles/componentsStyles/coursesBox.scss";
-import CoursesBoxItem from "@components/coursesBoxItem.jsx";
+import '@styles/componentsStyles/coursesBox.scss';
+import CoursesBoxItem from "@components/CoursesBoxItem.jsx";
 import { DownCircleFilled } from "@ant-design/icons";
 
 const CoursesBox = ({ data }) => {
